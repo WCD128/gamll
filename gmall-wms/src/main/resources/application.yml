@@ -1,0 +1,19 @@
+server:
+  port: 8083
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.66:8848
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: dbc:mysql://127.0.0.1:3306/guli_wms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+  redis:
+    host: 192.168.0.66
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  mapper-locations: classpath:/mapper/wms/**/*.xml

@@ -40,6 +40,11 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>com.java</groupId>
+				<artifactId>gmall-core</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
 			<!-- springCloud -->
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>

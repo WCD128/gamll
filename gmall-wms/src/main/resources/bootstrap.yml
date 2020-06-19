@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: wms-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.0.66:8848
+        namespace: 9826783e-97a7-406b-8c9b-6b80ea4f5392
+        file-extension: yml
